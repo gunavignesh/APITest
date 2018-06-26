@@ -1,3 +1,4 @@
+@test
 Feature: Verify the API
   Verify the give API's are working fine
   

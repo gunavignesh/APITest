@@ -13,7 +13,7 @@ import cucumber.api.CucumberOptions;
 import net.masterthought.cucumber.Configuration;
 import net.masterthought.cucumber.ReportBuilder;
 
-@CucumberOptions(tags = { "~@ignore" })
+@CucumberOptions(tags = { "@test" })
 public class TestRunner {
 	@Test
 	public void testParallel() {
